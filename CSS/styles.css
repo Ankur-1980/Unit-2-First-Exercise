@@ -3,13 +3,12 @@ body {
 }
 
 .form-container {
-	margin: 0 auto;
+	margin: 125px auto;
 	padding: 20px;
 	width: 300px;
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
 	background-color: white;
 	position: relative;
-	vertical-align: middle;
 }
 
 h1 {
