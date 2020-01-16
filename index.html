@@ -7,21 +7,30 @@
     <link rel="stylesheet" href="./CSS/styles.css">
     <title>Login Screen</title>
 </head>
-<body>
-    <div>
-        <h1>Welcome Back</h1>
-        <p><i>Sign In</i></p>
-    </div>
-    <div>
-        <form action="">
-            <input type="email" name="email" id="" placeholder="Email"> <br>
-            <input type="password" name="password" id="" placeholder="Password"> <br>
-            <a href="#">Forgot?</a><br>
-            <input type="submit"> <br>
-            <span><a href="#">I don't have an account</a></span>
-
-
-        </form>
-    </div>
-</body>
-</html>
+<!-- start container -->
+<div class="form-container">
+<!-- Top Lines -->
+    <h1>Welcome Back</h1>
+    <h4>Sign In</h4>
+<!-- begin form -->
+    <form id="login-form">
+ <!-- Entry field 1 -->
+        <div class="field-container">
+            <input type="email" name="email" class="email" placeholder="Email">
+        </div>
+ <!-- Entry Field 2 -->
+        <div class="field-container">
+            <input type="password" name="password" class="password" placeholder="Password">
+        </div>
+<!-- Forgot?  -->
+        <div>      
+            <a id="forgot" href="#">Forgot?</a>
+        </div>
+<!-- Submit  -->
+        <button type="submit">Sign In</button>
+<!-- No Account  -->
+        <p><a id="no-account" href="">I don't have an account</a></p>
+<!-- end form  -->
+    </form>
+</div>
+<!-- end container  -->
