@@ -8,7 +8,8 @@ body {
 	border: 2px solid;
 	width: 300px;
 	box-shadow: 2px 5px 20px 10px #dfd7d7;
-	background-color: #eaf4f9;
+	background-color: white;
+	position: relative;
 }
 
 h1 {
@@ -21,6 +22,7 @@ h1 {
 p {
 	font-family: 'Times New Roman', Times, serif;
 	text-align: center;
+	color: #c8c4c2;
 }
 
 .field-container {
@@ -36,4 +38,35 @@ p {
 input {
 	border-style: hidden;
 	outline: none;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 1em;
+	color: #7a7376;
+}
+
+a {
+	text-decoration: none;
+	color: #c8c4c2;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
+		sans-serif;
+	font-size: .75em;
+}
+
+#forgot {
+	position: absolute;
+	right: 50px;
+	bottom: 170px;
+}
+
+.submit {
+	display: block;
+	padding: 1em;
+	width: 100%;
+	color: #fff;
+	font-size: .75em;
+	font-weight: 400;
+	background-color: #3598db;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
+		sans-serif;
+	cursor: pointer;
+	margin-top: 50px;
 }
